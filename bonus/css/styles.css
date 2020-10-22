@@ -1,9 +1,11 @@
 .container {
-  background: black;
+  background: #ff348e;
   overflow: hidden;
 }
 .col_1 {
-  border: 1px solid #1642bf;
+  border: 1px solid #0ce3f7;
+  box-shadow: inset 1px 1px 30px #1642bf, inset 1px 1px 10px #1642bf;
+  background: black;
 }
 #logo {
   position: absolute;
