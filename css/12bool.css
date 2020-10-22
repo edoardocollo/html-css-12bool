@@ -7,7 +7,7 @@
   line-height: 200px;
   padding: 5px;
 }
-body>.container>[class*="col_"]>.container>[class*="col_"] {
+body>.container>.row>[class*="col_"]>.row>[class*="col_"] {
   background: red;
   border: 1px solid black;
   height: calc(200px - (2 *(5px + 1px)));
@@ -27,10 +27,13 @@ body>.container>[class*="col_"]>.container>[class*="col_"] {
   width: 100%;
   margin: auto;
 }
-.container::after {
-content: "";
-display: table;
-clear: both;
+.row {
+  width: 100%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* /CONTAINER */
